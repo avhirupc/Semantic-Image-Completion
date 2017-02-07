@@ -6,7 +6,7 @@ This is an experimental tensorflow implementation of semantic inpainting from co
 * Tensorflow
 * glob
 * Python 3
-* * *
+* * * *
 ## Dataset
 * I have used Celebrity faces dataset [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).Download the aligned version ,extract in the same directory as the code.
 * * *
@@ -14,6 +14,7 @@ This is an experimental tensorflow implementation of semantic inpainting from co
 ![alt-text](images\\model.png)
 * * *
 ## Few Results are Partial Training
+
 >Note: Due to unavailabity of GPU,i didnt train the model for long.This results are after an hour of training
 
 ![alt-text](images\\1.png)
