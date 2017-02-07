@@ -9,8 +9,12 @@ This is an experimental tensorflow implementation of semantic inpainting from co
 * * *
 ## Dataset
 * I have used Celebrity faces dataset [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).Download the aligned version ,extract in the same directory as the code.
+* * *
 ## Model Architecture
 ![alt-text](images\model.png)
+* * *
 ## Few Results are Partial Training
 >Note: Due to unavailabity of GPU,i didnt train the model for long.This results are after an hour of training
-![alt-text](images\1.png)(images\63.png)
+
+![alt-text](images\1.png)
+![alt-text](images\63.png)
