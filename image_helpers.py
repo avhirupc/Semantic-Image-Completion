@@ -2,6 +2,7 @@ import scipy.misc
 import numpy as np
 from PIL import Image
 from glob import glob
+import os
 
 # Helpers for image handling
 def get_image(image_path, image_size, is_crop=True):
@@ -57,4 +58,3 @@ def convert_to_lower_resolution():
         im=Image.open(image)
         im_resized=im.resize(size,Image.ANTIALIAS)
         im_resized.save("cars_train/"+str(i)+'.jpg')
-
